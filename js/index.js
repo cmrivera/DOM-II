@@ -20,3 +20,6 @@ funBusBanner.addEventListener(
   "drag",
   e => (e.target.style.transform = "scale(1.5)")
 );
+
+// ALERTS OUCH WHENEVER THE WINDOW IS RESIZED
+window.addEventListener("resize", () => alert("OUCHHHH!!!!"));
